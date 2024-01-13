@@ -1,0 +1,46 @@
+.clientintro {
+  background-color: #141414;
+  color: white;
+  padding-top: 13rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.clienthead {
+  color: white;
+  font-size: 4rem;
+  font-family: Lemon;
+}
+.clients {
+  background-color: #141414;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 5rem 5rem 5rem;
+  justify-content: space-between;
+}
+.client {
+  width: 20rem;
+  height: 17rem;
+}
+.clintmain {
+  background-color: #141414;
+  padding: 1rem;
+}
+.clientcopyright {
+  color: #939393;
+}
+/* for small screen*/
+@media screen and (max-width: 767px) {
+  .clientintro {
+    padding-top: 22rem;
+  }
+  .clienthead {
+    color: white;
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  .client {
+    width: 17rem;
+    height: 17rem;
+  }
+}

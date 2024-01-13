@@ -1,0 +1,31 @@
+.Galleryimgs {
+  padding-top: 5rem;
+  background-color: #141414;
+}
+.Galleryimg {
+  width: 50rem;
+  margin: 0rem 0rem 2rem 16rem;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.Gallery {
+  background-color: #141414;
+  padding: 1rem;
+}
+.Gallerycopyright {
+  color: #64748b;
+}
+/* for small screen*/
+@media screen and (max-width: 767px) {
+  .Galleryimgs {
+    padding-top: 22rem;
+  }
+  .Galleryimg {
+    margin: 3rem 1rem 1rem 0rem;
+    width: 20rem;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  }
+
+  .Gallerycopyright {
+    color: #64748b;
+  }
+}

@@ -1,0 +1,133 @@
+.contactpage {
+  background-color: #141414;
+  padding-bottom: 1rem;
+}
+.contactintro {
+  background-color: #141414;
+  padding-top: 12rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+.contactform {
+  width: 100vw;
+  height: 30rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.contactinfo {
+  width: 50%;
+  padding: 2rem;
+  color: white;
+}
+.form {
+  width: 50%;
+}
+.contacthead {
+  color: white;
+  font-size: 3rem;
+}
+.contacttime {
+  margin-left: 4.7rem;
+}
+.conatctspan {
+  color: white;
+  margin-left: 4.7rem;
+}
+.address {
+  width: 30rem;
+  margin-left: 4.7rem;
+}
+.formhead {
+  color: white;
+  font-size: 3rem;
+}
+input {
+  color: white;
+  background-color: #141414;
+  width: 30rem;
+  height: 2.8rem;
+  margin: 0rem 0rem 2rem 2rem;
+  outline: none;
+  border-bottom: 2px solid red;
+}
+.formbtn {
+  color: white;
+  width: 30rem;
+  height: 2.5rem;
+  border: 1px solid white;
+  margin-left: 1.9rem;
+}
+.formbtn:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 767px) {
+  .contactpage {
+    height: 120rem;
+  }
+  .contactintro {
+    padding-top: 22rem;
+  }
+  .contactform {
+    width: 100vw;
+    height: 50rem;
+    display: grid;
+    margin-bottom: 1rem;
+  }
+  .contactinfo {
+    width: 50%;
+    padding: 0rem;
+    color: white;
+  }
+  .contacthead {
+    color: white;
+    font-size: 2rem;
+    margin: 2rem 0rem 2rem 3rem;
+  }
+  .contacttime {
+    margin-left: 4.7rem;
+  }
+  .conatctspan {
+    color: white;
+    margin-left: 4.7rem;
+  }
+  .address {
+    width: 19rem;
+    margin-left: 4rem;
+  }
+  .formhead {
+    color: white;
+    font-size: 3rem;
+  }
+  input {
+    color: white;
+    background-color: #141414;
+    width: 19rem;
+    height: 2.8rem;
+    margin: 0rem 0rem 2rem 2rem;
+    outline: none;
+    border-bottom: 2px solid red;
+  }
+  .formbtn {
+    color: white;
+    width: 19rem;
+    height: 2.5rem;
+    border: 1px solid white;
+    margin-left: 1.9rem;
+  }
+  .formbtn:hover {
+    transform: scale(1.1);
+  }
+  .email {
+    margin-left: 3rem;
+  }
+  .phone {
+    width: 19rem;
+    margin-left: 0rem;
+  }
+  .contactspan {
+    margin: 1rem;
+  }
+  .aboutcopyright {
+    margin-top: 30rem;
+  }
+}

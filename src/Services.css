@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+
+.servicesintro {
+  padding: 13rem 0rem 0rem 0rem;
+  text-align: center;
+  background-color: #141414;
+}
+span {
+  font-size: 1rem;
+  color: #939393;
+}
+.servicehead {
+  color: white;
+  font-size: 5rem;
+  font-family: Lemon;
+  margin-bottom: 8rem;
+}
+.servicesbox {
+  height: 34rem;
+  display: flex;
+  background-color: #141414;
+}
+.serviceimg {
+  width: 50%;
+  height: 100%;
+  padding: 5rem 0rem 5rem 9rem;
+}
+.servicelogo {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 3rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px, #ffffff1a 0px 8px 24px,
+    rgba(248, 248, 248, 0.1) 0px 16px 56px;
+}
+.description {
+  width: 50%;
+}
+h5 {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  font-family: Roboto;
+  color: #ebaf00;
+  margin: 5rem 5rem 0rem 5rem;
+}
+.h52 {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  font-family: Roboto;
+  color: #ebaf00;
+  margin: 5rem 5rem 0rem 9rem;
+}
+.servicepara {
+  padding: 1rem 7rem 2rem 5rem;
+  color: white;
+}
+.servicepara2 {
+  padding: 1rem 5rem 2rem 9rem;
+  color: white;
+}
+.contactbtn {
+  color: white;
+  width: 15rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 4.5rem;
+  border: 1px solid white;
+  border-radius: 50rem;
+}
+.contactbtn2 {
+  color: white;
+  width: 15rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 9rem;
+  border: 1px solid white;
+  border-radius: 50rem;
+}
+.arrow {
+  width: 2rem;
+  background-color: white;
+  border-radius: 5rem;
+  margin-right: 1rem;
+}
+.mainservice {
+  background-color: #141414;
+  padding: 1rem;
+}
+.servicecopyright {
+  color: #939393;
+}
+
+/* for small screen*/
+@media screen and (max-width: 767px) {
+  .navlink {
+    width: 2rem;
+  }
+  .servicesintro {
+    padding: 22rem 0rem 0rem 0rem;
+    text-align: center;
+    background-color: #141414;
+  }
+  .servicehead {
+    font-size: 3rem;
+    margin-left: 0rem;
+  }
+  .servicesbox {
+    display: grid;
+    height: 70rem;
+  }
+  .serviceimg {
+    width: 100%;
+    height: 100%;
+    padding: 5rem 0rem 0rem 1rem;
+  }
+  .servicelogo {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 3rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px, #ffffff1a 0px 8px 24px,
+      rgba(248, 248, 248, 0.1) 0px 16px 56px;
+  }
+  .description {
+    width: 100%;
+  }
+  h5 {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    color: #ebaf00;
+    margin: 5rem 5rem 0rem 5rem;
+  }
+  .h52 {
+    font-size: 1.4rem;
+    margin: 5rem 5rem 0rem 5rem;
+  }
+  .servicepara {
+    padding: 1rem 2rem 2rem 2rem;
+    color: white;
+  }
+  .servicepara2 {
+    padding: 1rem 2rem 2rem 2rem;
+    color: white;
+  }
+  .contactbtn {
+    margin-left: 2rem;
+  }
+  .contactbtn2 {
+    margin-left: 2rem;
+  }
+  .mainservice {
+    width: 100vw;
+  }
+}
